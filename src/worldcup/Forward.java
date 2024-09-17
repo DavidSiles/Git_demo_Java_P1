@@ -6,8 +6,10 @@ public class Forward {
     public void drible(){
 
     }
-    public void kick(Ball ball){
 
+    /* Una nova funció super interesant */
+    public void kickBall(Ball ball) {
+            System.out.println("kicking the ball soo strong");
     }
 
 }
