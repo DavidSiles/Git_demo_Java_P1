@@ -9,8 +9,7 @@ package worldcup;
  * @author AdministradorCIFO
  */
 public class Person {  
-    int age;
-    
+	private int age;
     
     public void run(){
             System.out.println("running");

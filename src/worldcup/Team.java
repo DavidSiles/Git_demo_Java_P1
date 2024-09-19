@@ -11,16 +11,12 @@ import java.util.ArrayList;
  * @author AdministradorCIFO
  */
 public class Team {
-    String name;
-    ArrayList<Player> players;
+	private String name;
+	private ArrayList<Player> players;
     
     
     public void play(){
             System.out.println("playing");
         }
 
-    public void attack(){
-        System.out.println("attacking");
-    }
-    
 }
