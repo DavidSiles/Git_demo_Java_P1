@@ -12,9 +12,9 @@ import java.util.ArrayList;
 public class Game {
 
     //TODO to uncomment when class Field is created
-    //Field field;
-    int size;
-    ArrayList<Team> teams;
+    private Field field;
+    private int size;
+    private ArrayList<Team> teams;
 
     public static void main(String[] args) {
         int variableMethod;

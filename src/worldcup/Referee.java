@@ -3,11 +3,10 @@ package worldcup;
 /**
  *  Class to define Referee
  */
-public class Referee {
+public class Referee extends Person{
 
     /** bout the referee's whistle */
-    String whisper;
-    //double tolerance;
+	private String whisper;
 
     /**
      *  Puts the referee in ruling mode

@@ -1,7 +1,7 @@
 package worldcup;
 
 public class Field {
-	int size;
+	private int size;
 	
     public void turnLight(){
         System.out.println("Light on");

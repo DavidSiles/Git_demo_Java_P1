@@ -5,10 +5,10 @@ package worldcup;
  * This the class to define the defender
  */
 public class Defender extends Player{
-    Boolean mark;
+	private Boolean mark;
 
 
-    public void stealBall(){
+    public void steal(Ball ball){
 
         System.out.println("stealsBallToOffender");
     }
