@@ -6,4 +6,12 @@ public class Field {
     public void turnLight(){
         System.out.println("Light on");
     }
+
+	public int getSize() {
+		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
 }
