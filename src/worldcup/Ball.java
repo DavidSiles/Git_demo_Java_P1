@@ -13,7 +13,7 @@ public class Ball {
     /**
      *  Sets the ball in motion
      */
-    public void spin(Ball ball){
+    public void spin(){
         System.out.println("spinning");
     }
 

@@ -11,7 +11,7 @@ package worldcup;
 public class Player extends Person {
 		private String position;
 
-        public void passBall() {
+        public void passBall(Ball ball) {
                 System.out.println("plassing to Vicente :)");
         }
 }
